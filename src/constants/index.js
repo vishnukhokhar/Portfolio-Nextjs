@@ -175,10 +175,10 @@ export const projects = [
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Duo-Studio Clone",
+    name: "AI-Powered 3D Website",
     description:
-      "Created a website clone of DUO-STUDIO using HTML, CSS, and JavaScript, enhancing user experience with features like animated scrolling and custom cursor effects using Locomotive Scroll and GSAP.",
-    link: "https://vishnukhokhar.github.io/duo-studio/",
+      "Dynamically generate unique 3D shirts/swag with color customization, logo upload functionality, texture image upload, AI-generated logo integration, and AI-generated textures for enhanced personalization.",
+    link: "https://ai-3d-website-weld.vercel.app/",
   },
   {
     iconUrl: estate,
