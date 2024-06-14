@@ -150,7 +150,7 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "www.linkedin.com/in/vishnu-khokhar-65061a244",
   },
 ];
 
@@ -161,7 +161,7 @@ export const projects = [
     name: "Personal Portfolio",
     description:
       "Created a personal portfolio using Three.js, showcasing my skills, projects, and experience with a modern, responsive design. Implemented custom animations, interactive components.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+    link: "https://myportfolio-henna-ten.vercel.app/",
   },
   {
     iconUrl: pricewise,
