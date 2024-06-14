@@ -123,11 +123,11 @@ export const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Virtual Frontend Developer Internship",
+    company_name: "UNIcompiler",
     icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "#ccc",
+    date: "June 2022- July 2022",
     points: [
       "Developed a Personal Portfolio Website using HTML, CSS, JavaScript",
       "Developed a quiz web app using HTML, CSS, JavaScript which asks 5 ques to the use.",
@@ -145,7 +145,7 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/vishnukhokhar",
   },
   {
     name: "LinkedIn",

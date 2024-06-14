@@ -6,9 +6,55 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { skills, experiences } from "../constants";
 import CTA from "../components/CTA";
+import github from "../assets/images/github.png";
+import gmail from "../assets/images/gmail.png";
+import leetcode from "../assets/images/leetcode.png";
+import linkedin from "../assets/images/linkedin.png";
+// import twitter from "../assets/images/twitter.png";
+
 const About = () => {
+  const icons = [
+    {
+      href: "https://github.com/vishnukhokhar",
+      src: github,
+      alt: "GitHub",
+    },
+    {
+      href: "https://www.linkedin.com/in/vishnu-khokhar-65061a244/",
+      src: linkedin,
+      alt: "LinkedIn",
+    },
+    {
+      href: "mailto:vishnukhokhar2412@gmail.com",
+      src: gmail,
+      alt: "Gmail",
+    },
+    {
+      href: "https://leetcode.com/Vishnu_Khokhar/",
+      src: leetcode,
+      alt: "LeetCode",
+    },
+  ];
   return (
     <section className="max-container">
+      <div className="fixed top-1/2 left-0 transform -translate-y-1/2 z-50">
+        <ul className="p-0">
+          {icons.map((icon, index) => (
+            <li
+              key={index}
+              className="h-10 w-10 list-none pl-0.5 pt-0.75 mt-7 bg-whitesmoke rounded-[30%] hover:bg-[#eaed94]"
+            >
+              <a href={icon.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={icon.src}
+                  alt={icon.alt}
+                  className="h-9 w-9 rounded-lg"
+                />
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
       <h1 className="head-text">
         Hello, I'm{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
